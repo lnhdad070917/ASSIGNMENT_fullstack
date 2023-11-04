@@ -36,3 +36,41 @@
     transform: rotate(360deg);
   }
 }
+
+table {
+  /* border-spacing: 1px; */
+  width: 100%;
+}
+
+table th,
+table td {
+  padding: 3px 8px;
+}
+
+select {
+  width: 100%;
+}
+
+table > tbody > tr {
+  border: 10px solid red !important;
+}
+
+.mahasiswa {
+  background-color: grey;
+}
+.nama {
+  display: flex;
+  align-items: center;
+}
+
+.button {
+  margin: 15px 20px;
+  display: flex;
+  justify-content: end;
+}
+
+.button button {
+  padding: 8px 27px;
+  background-color: black;
+  color: #fff;
+}
